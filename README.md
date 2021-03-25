@@ -4,7 +4,7 @@ You can get example.txt file here
 	https://stackoverflow.com/questions/44492576/looking-for-large-text-files-for-testing-compression-in-all-sizes
 	http://mattmahoney.net/dc/textdata.html
 
-I used enwik8 from http://mattmahoney.net/dc/textdata.html
+I used an enwik8 from http://mattmahoney.net/dc/textdata.html
 
 # Stream compression. Single thread.
 
