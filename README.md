@@ -5,14 +5,14 @@ You can get example.txt file here
 	http://mattmahoney.net/dc/textdata.html
 
 I used an enwik8 from http://mattmahoney.net/dc/textdata.html
+example.txt
+file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
 
 # Stream compression. Single thread.
 
 buffer size: 8192 B = 8 KB = 0.008 MB
-example.txt
 total time: 3366.5956 ms = 3.3665956 s
 total time: min:sec.ms: 00:03.366
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
 speed: 29703597.605 B/s = 29007.42 KB/s = 28.327 MB/s
 
 buffer size: 16384 B = 16 KB = 0.016 MB
@@ -65,7 +65,7 @@ file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
 speed: 31610716.121 B/s = 30869.84 KB/s = 30.146 MB/s
 
 
-# Stream compression. Multiple threads via linq.
+# Stream compression. Multiple threads via plinq.
 
 buffer size: 8192 B = 8 KB = 0.008 MB
 example.txt
