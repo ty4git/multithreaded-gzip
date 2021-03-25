@@ -11,6 +11,8 @@ file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
 
 # Stream compression. Single thread.
 
+buffer size | total time | speed
+------------|------------|------
 buffer size: 8192 B = 8 KB = 0.008 MB | total time: min:sec.ms: 00:03.366 | speed: 29703597.605 B/s = 29007.42 KB/s = 28.327 MB/s  
 buffer size: 16384 B = 16 KB = 0.016 MB | total time: min:sec.ms: 00:03.293 | speed: 30363379.202 B/s = 29651.738 KB/s = 28.957 MB/s  
 buffer size: 32768 B = 32 KB = 0.031 MB | total time: min:sec.ms: 00:03.128 | speed: 31961813.879 B/s = 31212.709 KB/s = 30.481 MB/s  
