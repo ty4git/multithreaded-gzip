@@ -5,61 +5,20 @@ You can get example.txt file here
 	http://mattmahoney.net/dc/textdata.html  
 
 I used an enwik8 from http://mattmahoney.net/dc/textdata.html  
+  
 example.txt  
 file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB  
 
 # Stream compression. Single thread.
 
 buffer size: 8192 B = 8 KB = 0.008 MB | total time: min:sec.ms: 00:03.366 | speed: 29703597.605 B/s = 29007.42 KB/s = 28.327 MB/s  
-  
-buffer size: 16384 B = 16 KB = 0.016 MB
-example.txt
-total time: 3293.4411 ms = 3.2934411 s
-total time: min:sec.ms: 00:03.293
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 30363379.202 B/s = 29651.738 KB/s = 28.957 MB/s
-
-buffer size: 32768 B = 32 KB = 0.031 MB
-example.txt
-total time: 3128.7336 ms = 3.1287336 s
-total time: min:sec.ms: 00:03.128
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 31961813.879 B/s = 31212.709 KB/s = 30.481 MB/s
-
-buffer size: 65536 B = 64 KB = 0.062 MB
-example.txt
-total time: 3150.9328 ms = 3.1509328 s
-total time: min:sec.ms: 00:03.150
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 31736633.99 B/s = 30992.807 KB/s = 30.266 MB/s
-
-buffer size: 131072 B = 128 KB = 0.125 MB
-example.txt
-total time: 3139.9236 ms = 3.1399236 s
-total time: min:sec.ms: 00:03.139
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 31847908.975 B/s = 31101.474 KB/s = 30.372 MB/s
-
-buffer size: 262144 B = 256 KB = 0.25 MB
-example.txt
-total time: 3111.0022 ms = 3.1110022 s
-total time: min:sec.ms: 00:03.111
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 32143982.733 B/s = 31390.608 KB/s = 30.655 MB/s
-
-buffer size: 524288 B = 512 KB = 0.5 MB
-example.txt
-total time: 3109.236 ms = 3.109236 s
-total time: min:sec.ms: 00:03.109
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 32162242.107 B/s = 31408.44 KB/s = 30.672 MB/s
-
-buffer size: 1048576 B = 1024 KB = 1 MB
-example.txt
-total time: 3163.4842 ms = 3.1634842 s
-total time: min:sec.ms: 00:03.163
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 31610716.121 B/s = 30869.84 KB/s = 30.146 MB/s
+buffer size: 16384 B = 16 KB = 0.016 MB | total time: min:sec.ms: 00:03.293 | speed: 30363379.202 B/s = 29651.738 KB/s = 28.957 MB/s  
+buffer size: 32768 B = 32 KB = 0.031 MB | total time: min:sec.ms: 00:03.128 | speed: 31961813.879 B/s = 31212.709 KB/s = 30.481 MB/s  
+buffer size: 65536 B = 64 KB = 0.062 MB | total time: min:sec.ms: 00:03.150 | speed: 31736633.99 B/s = 30992.807 KB/s = 30.266 MB/s  
+buffer size: 131072 B = 128 KB = 0.125 MB | total time: min:sec.ms: 00:03.139 | speed: 31847908.975 B/s = 31101.474 KB/s = 30.372 MB/s  
+buffer size: 262144 B = 256 KB = 0.25 MB | total time: min:sec.ms: 00:03.111 | speed: 32143982.733 B/s = 31390.608 KB/s = 30.655 MB/s  
+buffer size: 524288 B = 512 KB = 0.5 MB | total time: min:sec.ms: 00:03.109 | speed: 32162242.107 B/s = 31408.44 KB/s = 30.672 MB/s  
+buffer size: 1048576 B = 1024 KB = 1 MB | total time: min:sec.ms: 00:03.163 | speed: 31610716.121 B/s = 30869.84 KB/s = 30.146 MB/s  
 
 
 # Stream compression. Multiple threads via plinq.
