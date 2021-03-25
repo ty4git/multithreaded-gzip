@@ -1,20 +1,17 @@
 # multithreaded-gzip
 
-You can get example.txt file here
-	https://stackoverflow.com/questions/44492576/looking-for-large-text-files-for-testing-compression-in-all-sizes
-	http://mattmahoney.net/dc/textdata.html
+You can get example.txt file here  
+	https://stackoverflow.com/questions/44492576/looking-for-large-text-files-for-testing-compression-in-all-sizes  
+	http://mattmahoney.net/dc/textdata.html  
 
-I used an enwik8 from http://mattmahoney.net/dc/textdata.html \n
-example.txt \n
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
+I used an enwik8 from http://mattmahoney.net/dc/textdata.html  
+example.txt  
+file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB  
 
 # Stream compression. Single thread.
 
-buffer size: 8192 B = 8 KB = 0.008 MB
-total time: 3366.5956 ms = 3.3665956 s
-total time: min:sec.ms: 00:03.366
-speed: 29703597.605 B/s = 29007.42 KB/s = 28.327 MB/s
-
+buffer size: 8192 B = 8 KB = 0.008 MB | total time: min:sec.ms: 00:03.366 | speed: 29703597.605 B/s = 29007.42 KB/s = 28.327 MB/s  
+  
 buffer size: 16384 B = 16 KB = 0.016 MB
 example.txt
 total time: 3293.4411 ms = 3.2934411 s
