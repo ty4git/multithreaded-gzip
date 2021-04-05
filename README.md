@@ -23,63 +23,18 @@ buffer size | total time (min:sec.ms) | speed
 1048576 B = 1024 KB = 1 MB | 00:03.163 | 31610716.121 B/s = 30869.84 KB/s = 30.146 MB/s  
 
 
-# Stream compression. Multiple threads via plinq.
+# Stream compression. Multiple threads via pLinq.
 
-buffer size: 8192 B = 8 KB = 0.008 MB
-example.txt
-total time: 948.7096 ms = 0.9487096 s
-total time: min:sec.ms: 00:00.948
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 105406334.035 B/s = 102935.873 KB/s = 100.523 MB/s
-
-buffer size: 16384 B = 16 KB = 0.016 MB
-example.txt
-total time: 749.6195 ms = 0.7496195 s
-total time: min:sec.ms: 00:00.749
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 133401013.447 B/s = 130274.427 KB/s = 127.221 MB/s
-
-buffer size: 32768 B = 32 KB = 0.031 MB
-example.txt
-total time: 795.0265 ms = 0.7950265 s
-total time: min:sec.ms: 00:00.795
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 125781972.047 B/s = 122833.957 KB/s = 119.954 MB/s
-
-buffer size: 65536 B = 64 KB = 0.062 MB
-example.txt
-total time: 839.0231 ms = 0.8390231 s
-total time: min:sec.ms: 00:00.839
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 119186230.987 B/s = 116392.804 KB/s = 113.664 MB/s
-
-buffer size: 131072 B = 128 KB = 0.125 MB
-example.txt
-total time: 866.9999 ms = 0.8669999 s
-total time: min:sec.ms: 00:00.866
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 115340268.205 B/s = 112636.981 KB/s = 109.997 MB/s
-
-buffer size: 262144 B = 256 KB = 0.25 MB
-example.txt
-total time: 832.5103 ms = 0.8325103 s
-total time: min:sec.ms: 00:00.832
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 120118635.169 B/s = 117303.355 KB/s = 114.554 MB/s
-
-buffer size: 524288 B = 512 KB = 0.5 MB
-example.txt
-total time: 864.4221 ms = 0.8644221 s
-total time: min:sec.ms: 00:00.864
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 115684225.334 B/s = 112972.876 KB/s = 110.325 MB/s
-
-buffer size: 1048576 B = 1024 KB = 1 MB
-example.txt
-total time: 846.1583 ms = 0.8461583 s
-total time: min:sec.ms: 00:00.846
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB
-speed: 118181197.301 B/s = 115411.326 KB/s = 112.706 MB/s
+buffer size | total time (min:sec.ms) | speed
+------------|-------------------------|------
+8 KB | 00:00.948 | 102935.873 KB/s = 100.523 MB/s
+16 KB | 00:00.749 | 130274.427 KB/s = 127.221 MB/s
+32 KB | 00:00.795 | 122833.957 KB/s = 119.954 MB/s
+64 KB | 00:00.839 | 116392.804 KB/s = 113.664 MB/s
+128 KB | 00:00.866 | 112636.981 KB/s = 109.997 MB/s
+256 KB | 00:00.832 | 117303.355 KB/s = 114.554 MB/s
+512 KB | 00:00.864 | 112972.876 KB/s = 110.325 MB/s
+1024 KB | 00:00.846 | 115411.326 KB/s = 112.706 MB/s
 
 
 # Stream compression. Multiple threads custom implementation via thread pool with tasks.
