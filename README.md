@@ -6,8 +6,8 @@ You can get example.txt file here
 
 I used an enwik8 from http://mattmahoney.net/dc/textdata.html  
   
-example.txt  
-file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB  
+**example.txt**  
+**file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB**  
 
 # Stream compression. Single thread.
 
