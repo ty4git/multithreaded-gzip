@@ -13,7 +13,7 @@ I used an enwik8 from http://mattmahoney.net/dc/textdata.html
 **example.txt**  
 **file size: 100000001 B = 97656.251 KB = 95.367 MB = 0.093 GB**  
 
-# Stream compression. Single thread.
+## Stream compression. Single thread.
 
 buffer size | total time (min:sec.ms) | speed
 ------------|-------------------------|------
@@ -27,7 +27,7 @@ buffer size | total time (min:sec.ms) | speed
 1024 KB | 00:03.163 | 30869.84 KB/s = 30.146 MB/s 
 
 
-# Stream compression. Multiple threads via pLinq.
+## Stream compression. Multiple threads via pLinq.
 
 buffer size | total time (min:sec.ms) | speed
 ------------|-------------------------|------
@@ -41,7 +41,7 @@ buffer size | total time (min:sec.ms) | speed
 1024 KB | 00:00.846 | 115411.326 KB/s = 112.706 MB/s
 
 
-# Stream compression. Multiple threads custom implementation via thread pool with tasks.
+## Stream compression. Multiple threads custom implementation via thread pool with tasks.
 
 buffer size | total time (min:sec.ms) | speed
 ------------|-------------------------|------
@@ -55,7 +55,7 @@ buffer size | total time (min:sec.ms) | speed
 1024 KB | 00:00.958 | 101931.237 KB/s = 99.542 MB/s
 
 
-# Stream compression. Multiple threads custom implementation via static threads.
+## Stream compression. Multiple threads custom implementation via static threads.
 
 buffer size | total time (min:sec.ms) | speed
 ------------|-------------------------|------
