@@ -1,5 +1,7 @@
 # multithreaded-gzip
 
+## Description
+
 Software processes (compress or decompress) file using gzip and writes it to result file. Processing are done by parts concyrrently.
 
 You can get example.txt file here  
