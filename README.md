@@ -2,7 +2,7 @@
 
 ## Description
 
-Software processes (compress or decompress) file using gzip and writes it to result file. Processing are done by parts concyrrently.
+Application processes (compress or decompress) file using gzip and writes it to result file. Processing are done by parts concyrrently.
 
 You can get example.txt file here  
 	https://stackoverflow.com/questions/44492576/looking-for-large-text-files-for-testing-compression-in-all-sizes  
